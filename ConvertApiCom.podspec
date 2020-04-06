@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "djups" => "ajog@yandex.ru" }
 
   spec.ios.deployment_target = "11.0"
-  spec.swift_version = "4.2"
+  spec.swift_version = ["4.2", "5.0"]
 
   spec.source        = { :git => "https://github.com/djups/ConvertApiSwift.git", :tag => "0.0.1" }
   spec.source_files  = "ConvertApiCom/**/*.{h,m,swift}", "ConvertApiCom/Models/*.{h,m,swift}"
