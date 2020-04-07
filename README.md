@@ -3,8 +3,8 @@ Api call using Swift and native URLRequest for convertapi.com.
 Models, based on Codable protocols.
 
 # Install using CocoaPods
-- iOS target: 11.0
-- swift version: 4.2
+- iOS target: 12.3
+- swift versions: 4.2, 5.0
 ```
 pod 'ConvertApiCom'
 ```
